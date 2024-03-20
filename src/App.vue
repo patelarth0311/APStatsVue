@@ -1,8 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { RouterLink, RouterView } from 'vue-router'
-import FeaturesView from "./views/FeaturesView.vue"
+
 import FooterView from "./views/FooterView.vue"
+import FeaturesView from "./views/FeaturesView.vue"
 
 </script>
 
@@ -23,14 +24,14 @@ import FooterView from "./views/FooterView.vue"
  
 
     <div class="flex flex-col justify-center  items-center mb-[200px]">
-
-      <FeaturesView />
+      <RouterView />
+      
     </div>
 
     <FooterView></FooterView>
   </div>
   
 
-  <RouterView />
+
 </template>
 

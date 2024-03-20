@@ -22,7 +22,7 @@ export default {
      
       features: [
       {id: 1, img: viewOne, title: "AMStats", info: "Get insights into your Apple Music activity."},
-{id: 2, img: viewTwo, title: "Overview", info: "See how much you spent listening and playing to all your of songs, artists, and albums."},
+{id: 2, img: viewTwo, title: "Overview", info: "See how much you played and listened to all your songs, artist, and albums."},
 {id: 3, img: viewThree, title: "Player", info: "A beautiful interface to show your playing song."},
 {id: 4, img: viewFour, title: "Songs", info: "Search through your songs."},
 {id: 5, img: viewFive, title: "Learn", info: "Learn more about your songs."},
